@@ -3,7 +3,7 @@
 PKG             := grpc
 $(PKG)_WEBSITE  := https://github.com/grpc/grpc
 $(PKG)_IGNORE   :=
-$(PKG)_VERSION  := 1.19.1
+$(PKG)_VERSION  := 1.27.1
 $(PKG)_CHECKSUM := f869c648090e8bddaa1260a271b1089caccbe735bf47ac9cd7d44d35a02fb129
 $(PKG)_GH_CONF  := grpc/grpc/tags,v
 $(PKG)_DEPS     := cc protobuf zlib c-ares $(BUILD)~$(PKG)
